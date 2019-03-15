@@ -20,7 +20,7 @@ var channel = "556122744266293279";//ايدي الروم
 hero.on("message", message => {
    var prefix = "-";
            if(message.content.startsWith(prefix + "1say") || message.content.startsWith(prefix + "say")) {
-       let sdf = ["530935828629684235", "475797943480352789"];
+       let sdf = ["475797943480352789", "417282734638235648"];
 if(!sdf.includes(message.author.id)) return message.reply("هذا الامر لصحاب البوت فقط");
            let args = message.content.split(" ").slice(1);
    message.delete();
