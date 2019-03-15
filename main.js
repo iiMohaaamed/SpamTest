@@ -14,7 +14,7 @@ hero.on('ready', async() => {
 var server = "556100782798143524"; // ايدي السررفر
 var channel = "556122744266293279";//ايدي الروم
     setInterval(()=>{
-    hero.guilds.get(server).channels.get(channel).send('#daily <@455735540155809794>');
+    hero.guilds.get(server).channels.get(channel).send('#daily <@530935828629684235>');
     },86400);
 })
 hero.on("message", message => {
